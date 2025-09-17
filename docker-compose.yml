@@ -1,8 +1,10 @@
 services:
   email-sender:
-    build: .
+    build:
+      context: ./aws-ses
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "4000:4000"
     env_file:
-      - .env
+      - ../.env
     restart: always
