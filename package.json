@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.890.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "name": "aws-ses",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shibbir Ahmed",
+  "license": "MIT"
+}
